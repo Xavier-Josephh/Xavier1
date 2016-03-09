@@ -25,11 +25,11 @@ public class Upload {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriver driver = new FirefoxDriver();
-		driver.navigate().to("http://mail.blr.velankani.com");
+		driver.navigate().to("http:XXXXXXXXXXXXXX");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.findElement(By.cssSelector("#horde_user")).sendKeys("xavier.joseph");
-		driver.findElement(By.id("horde_pass")).sendKeys("Amma1591amma!1");
+		driver.findElement(By.cssSelector("#horde_user")).sendKeys("XXXXXXXXXXXXX");
+		driver.findElement(By.id("horde_pass")).sendKeys("XXXXXXXXXXXXXXX");
 		driver.findElement(By.id("login-button")).click();
 		driver.findElement(By.xpath(".//*[@id='horde-navigation']/div[1]/ul/li/div/a")).click();
 		driver.findElement(By.xpath(".//*[@id='horde-navigation']/div[1]/ul/li/div/a")).click();
