@@ -27,5 +27,7 @@ public class FrameTest
 	    driv.switchTo().frame("contentFrame");
 	    driv.findElement(By.linkText("How can I change the decimal separator in the amounts from ',' (comma) to '.' (dot)?")).click();
 	    
+	    // Testing for the sync
+	    
   }
 }
