@@ -47,5 +47,7 @@ public class Clickonhighlights
     ele.click();
     
     driv.findElement(By.linkText("Report Infringement")).click();
+    
+    //Test
   }
 }
